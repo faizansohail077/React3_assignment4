@@ -1,0 +1,16 @@
+html,body,#root,.room 
+{
+  height: 100%;
+  margin: 0;
+  background-color: pink;
+}
+
+.lit {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
