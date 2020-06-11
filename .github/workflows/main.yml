@@ -35,6 +35,6 @@ jobs:
       run: yarn build
       
     - name: install surge
-      run: npm install --gloabal surge
+      run: npm install --global surge
     - name: deploy surge
       run: surge ./build assignment4_react.surge.sh --token ${{secrets.SURGE_TOKEN}}   
